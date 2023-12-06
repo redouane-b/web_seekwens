@@ -2,6 +2,9 @@
 body, h1, h2, p {
     margin: 0;
     padding: 0;
+    background-color: #333;
+    color: #fff;
+
 }
 
 body {
@@ -16,10 +19,123 @@ header {
     padding: 20px;
 }
 
+header h1 {
+    font-size: 3em;
+}
+
 section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 100%; /* Adjust the width of each column as needed */
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.action-button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #ddd; /* Add a border for separation */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: rgb(17, 145, 143);
+}
+
+
+
+.paragraph-section {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph {
+    width: 60%;
+    text-align: center;
+}
+
+.image-container {
+    width: 30%; /* Adjust the width as needed */
+}
+
+h2, p, a {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.definition-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding for the entire section */
+    box-sizing: border-box; /* Apply box sizing to the entire section */
+}
+
+.word-column {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.em;
+
+}
+
+.definition-column {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.pronunciation {
+    font-style: italic;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
 footer {
