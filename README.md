@@ -23,7 +23,6 @@ Explore my personal website to learn more about my background, skills, and the p
 - HTML
 - CSS
 - JavaScript
-  - [Optional: List any specific libraries or frameworks used]
 
 ## Project Structure
 
@@ -37,7 +36,7 @@ Explore my personal website to learn more about my background, skills, and the p
 ## Getting Started
 
 To run this project locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
+1. Clone the repository 
 2. Open `index.html` in your browser.
 
 ## How to Customize
@@ -53,13 +52,3 @@ Feel free to contribute by reporting issues, suggesting improvements, or submitt
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- [Optional: Acknowledge any third-party tools, templates, or resources you used.]
-
-## Author
-
-Your Full Name
-
-[Optional: Include a link to your personal website or LinkedIn profile.]
