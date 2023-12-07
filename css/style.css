@@ -1,8 +1,68 @@
-/* Reset some default browser styles */
+/* START Navigator */
+.nav-header {
+    position: fixed;
+    top: -50px;
+    width: 100%; 
+    background-color: #8DA1B9;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: top 0.3s ease;
+}
+
+.nav-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+.nav-header li {
+    margin-right: 50px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: Bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-header a:hover {
+    color: #002B59;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* END Navigator */
+
+
+/* Quote */
+
+header {
+    background-color: #002B59;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header h1 {
+    font-size: 3em;
+}
+
+/* End Quote */
+
+
+/* Body */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
-
 
 }
 
@@ -11,16 +71,66 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+
+
+
+/*Defition part */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-header h1 {
-    font-size: 3em;
+.background-image {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background_defintion.png");
+    background-size: cover;
+    background-position: center;
 }
+
+.definition-section {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20%;
+    box-sizing: border-box;
+    background-color: #002B59;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.word-column,
+.definition-column {
+    z-index: 1;
+}
+
+.word-column {
+    width: 30%;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.definition-column {
+    width: 60%;
+    text-align: left;
+}
+
+.pronunciation {
+    font-style: italic;
+}
+
+
+
 
 section {
     max-width: 800px;
@@ -28,8 +138,8 @@ section {
     padding: 20px;
 }
 .services-section {
-    background-color: rgb(69, 83, 56); /* Set the background color for the Services section */
-    padding: 40px 20px; /* Add padding for better spacing */
+    background-color: rgb(69, 83, 56); 
+    padding: 40px 20px; 
     max-width: 100%;
 
 }
@@ -105,53 +215,16 @@ section {
     font-size: 2em;
     text-align: left;
     margin: 15 auto;
-
-
 }
 
 
-.nav-header {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%; 
-    max-width: 1200px;
-    background-color: #010000;
-    color: #fff;
-    padding: 10px 0;
-    z-index: 1000;
-}
 
-.nav-header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
 
-.nav-header li {
-    margin-right: 20px;
-}
 
-.nav-header a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
-.nav-header a:hover {
-    color: #ddd;
-}
 
 body {
     padding-top: 60px;
 }
-
-
 
 .two-columns {
     display: flex;
@@ -210,63 +283,9 @@ img {
 }
 
 
-.definition-section {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    color: #fff; 
-    padding: 20px; 
-    box-sizing: border-box; 
-}
 
 
 
-.definition-section {
-    position: relative;
-    color: #fff;
-    padding: 40px;
-    height: 800px;
-    background-position: center;
-    background-color: #333; 
-    box-sizing: border-box;  
-}
-
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/placeholder.png"); 
-    background-size: cover;
-    background-position: center;
-}
-
-.word-column,
-.definition-column {
-    position: relative;
-    z-index: 1; 
-}
-
-.word-column {
-    width: 30%; 
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    font-size: 1.5em;
-
-}
-
-.definition-column {
-    width: 70%;
-    padding: 20px;
-    margin: 10px;
-    text-align: left;
-}
-
-.pronunciation {
-    font-style: italic;
-}
 
 nav {
     background-color: #333;
@@ -292,11 +311,11 @@ nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #8da1b9;
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: end;
     bottom: 0;
     width: 100%;
 }
