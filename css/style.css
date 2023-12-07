@@ -29,6 +29,93 @@ section {
     padding: 20px;
 }
 
+
+.about-me-section {
+    background-color: #0c1927;
+    color: #fff; 
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.about-me-content img {
+    max-width: 20%;
+    border-radius: 50%; 
+    margin-right: 20px;
+}
+
+.about-me-content p {
+    color: #000000;
+    background-color: #0c1927;
+    color: #fff; 
+}
+
+.about-me-section h3 {
+    display: inline;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    max-width: 100%;
+    font-size: 2em;
+    text-align: left;
+
+
+
+
+}
+
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    max-width: 1200px;
+    background-color: #010000;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.nav-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-header li {
+    margin-right: 20px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-header a:hover {
+    color: #ddd;
+}
+
+body {
+    padding-top: 60px;
+}
+
+
+
 .two-columns {
     display: flex;
     justify-content: space-around;
@@ -100,7 +187,7 @@ img {
     padding: 20px;
     margin: 10px;
     text-align: center;
-    font-size: 1.em;
+    font-size: 1.5em;
 
 }
 
